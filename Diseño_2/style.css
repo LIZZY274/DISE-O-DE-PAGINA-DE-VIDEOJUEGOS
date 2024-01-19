@@ -14,8 +14,13 @@
 
 body {
   background: #fff;
+/*  margin-left: 70px;
+  margin-top: 10px;*/
 }
-
+.margen{
+    margin-left: 70px;
+  margin-top: 10px;
+}
 header {
   background-color: #fff;
   color: #000;
@@ -25,12 +30,13 @@ header {
   align-items: center;
   width: 100%;
   z-index: 1000px;
-  border-bottom: 1px solid #a0a0a0;
   box-shadow: #000;
 }
-
+.colorXD{
+  color: #7e7b7b;
+}
 .logo img {
-  max-width: 40px; 
+  max-width: 700px; 
 }
 
 nav ul {
@@ -106,7 +112,7 @@ nav a {
 }
 
 .main-principales1{
-  background-color: #f2f2f2;
+  background-color: #F2F2F2 ;
   padding: 60px;
   border-radius: 40px;
   display: flex;
@@ -153,9 +159,11 @@ nav a {
 }
 
 .principal-parrafo p{
-  color: #000;
+  color: #707070;
 }
-
+.color2{
+  color: #707070;
+}
 .cards-tempalte{
   display: flex;
   flex-direction: column;
@@ -172,7 +180,7 @@ nav a {
 
 
 .main-card{
-  background-color: #d1d1d1;
+  background-color: #EFEFEF ;
   height: 70vh;
   
 }
@@ -190,7 +198,7 @@ nav a {
   height: 250px;
   border-radius: 10px ;
   padding: 7px;
-  background-color: #9e9e9e;
+  background-color: #FFFFFF ;
 }
 
 .main-card-header p{
@@ -209,6 +217,7 @@ nav a {
   width: 100%;
   height: 185px;
   overflow: hidden;
+  background-color: #F2F2F2 ;
 }
 
 .card-img img{
@@ -216,7 +225,9 @@ nav a {
   height: 100%;
   object-fit: cover;
 }
-
+.colorp{
+  color: #424141;
+}
 .card-star{
   position: absolute;
   width: 30px;
@@ -233,15 +244,19 @@ nav a {
   position: absolute;
   bottom: 0;
   padding: 15px;
+  
 }
-
+.bi-star-fill {
+  fill: #C1C1C1;
+  transform: scale(2);
+}
 .card-button button{
-  background: #fff;
-  color: #000;
+  background: #ffffff;
+  color: #707070;
   font-weight: 400;
   font-size: 15px;
   padding: 3px 7px;
-  border: 1px solid #000;
+  border: 1px solid #ffffff;
   border-radius: 999px;
 }
 
@@ -270,7 +285,7 @@ footer li{
   padding: 1rem;
   /* margin: 2rem auto; */
   padding: 50px 60px;
-  background-color: #f2f2f2;
+  background-color: #707070 ;
 }
 .logo-element_footer{
   display: flex;
@@ -327,9 +342,11 @@ p{
 }
 
 .button-principal p {
-  color: #000;
+  color: #707070;
+  
 }
 
 .prt {
-  color: #000;
+  color: #707070;
+  ;
 }

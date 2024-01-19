@@ -13,8 +13,12 @@
 }
 body {
   background: #fff;
+ 
 }
-
+.margen{
+  margin-left: 70px;
+margin-top: 10px;
+}
 header {
   background-color: #fff;
   color: #000;
@@ -24,12 +28,13 @@ header {
   align-items: center;
   width: 100%;
   z-index: 1000px;
-  border-bottom: 1px solid #a0a0a0;
   box-shadow: #000;
+  /*  margin-left: 10px;*/
 }
 
+
 .logo img {
-  max-width: 40px; 
+  max-width: 700px; 
 }
 
 nav ul {
@@ -37,10 +42,13 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  
 }
-
+.colorXD{
+  color: #7e7b7b;
+}
 nav li {
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 nav a {
@@ -125,7 +133,7 @@ p {
 }
 
 .main-card{
-  background-color: #272B36;
+  background-color: #EFEFEF ;
   height: 70vh;
   
 }
@@ -143,7 +151,7 @@ p {
   height: 250px;
   border-radius: 10px ;
   padding: 7px;
-  background-color: #4D5C6F;
+  background-color: #FFFFFF ;
 }
 
 .main-card-header p{
@@ -181,6 +189,11 @@ p {
 .card-star img{
   width: 100%;
 }
+.bi-star-fill {
+  fill: #C1C1C1;
+  transform: scale(2);
+}
+
 
 .card-button{
   position: absolute;
@@ -194,7 +207,7 @@ p {
   font-weight: 400;
   font-size: 15px;
   padding: 3px 7px;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   border-radius: 999px;
 }
 
@@ -228,7 +241,7 @@ footer li{
   /* margin: 2rem auto; */
   padding: 50px 60px;
   /* max-width: 1200px; */ 
-  background-color: #4D5C6F;
+  background-color: #707070 ;
 }
 .logo-element_footer{
   display: flex;
